@@ -1,13 +1,11 @@
-package seedu.duke;
+package seedu.simplst;
 
 import util.exceptions.NullException;
-
-import java.util.Scanner;
 
 /**
  * Main entry-point for the java.duke.Duke application.
  */
-public class Duke {
+public class Simplst {
     public static void hello() {
         String logo = "Simplst";
         System.out.println("Hello from\n" + logo);
@@ -29,8 +27,8 @@ public class Duke {
             // welcome user back;
             // ui = new UserInterface(new Warehouse(capacity));
         } else {
-            System.out.println("New login. Please type the total number of goods"
-                    + " your warehouse can hold");
+            // System.out.println("New login. Please type the total number of goods"
+            //         + " your warehouse can hold");
             ui = new UserInterface(new Warehouse(1000));
         }
         ui.run();
