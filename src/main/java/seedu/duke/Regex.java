@@ -1,4 +1,4 @@
-package seedu.simplst;
+package seedu.duke;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,12 +19,12 @@ import java.util.regex.Pattern;
  * This will give a HashMap of <k,v> as <id,id_value>
  * Refer to UserInterface.run() -> case "add" for another example
  */
-public class MatchKeywords {
+public class Regex {
     private static String input;
     private static String regex;
     private HashMap<String, String> groupValues;
 
-    public MatchKeywords(String input, String regex) {
+    public Regex(String input, String regex) {
         this.input = input;
         this.regex = regex;
         this.groupValues = findMatch();
@@ -38,8 +38,8 @@ public class MatchKeywords {
      * @throws //If no match is found should throw something?
      * Current implementation is just to put no value with
      * corresponding keys
-    */
-    private HashMap<String,String> findMatch() {
+     */
+     private HashMap<String,String> findMatch() {
         HashMap<String, String> hashMap = new HashMap<>();
         ArrayList<String> groupNames = findGroup(regex);
         Matcher matcher = regexMatching(regex, input);
@@ -64,7 +64,7 @@ public class MatchKeywords {
      * @param input Given input to match regex against
      * @return Matcher class after matching the input with regex
      */
-    private Matcher regexMatching(String regex, String input) {
+     private Matcher regexMatching(String regex, String input) {
         Pattern pattern = Pattern.compile(regex);
         return pattern.matcher(input);
     }

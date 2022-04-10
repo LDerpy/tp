@@ -1,34 +1,26 @@
 Hello from
 Simplst
 What would you like to do?
-Unit Good of SKU: WC1 added to warehouse
+100 chairs (Empty Description) Has been added
 Another command?
-Order 1 added to the warehouse
+List of inventory items:
+1. chairs
 Another command?
-10 Good of SKU: WC1 added to warehouse
+Viewing item with id 1
+Item name: chairs
+Item description: Empty Description
+Item quantity: 100
 Another command?
-WC1 - Wooden Chair (Chair made of oak from Europe) [Qty: 10]
-Unit size of good: MEDIUM
+14 chairs have been removed.
 Another command?
-WC1 - Wooden Chair (Chair made of oak from Europe) [Qty: 10]
-Unit size of good: MEDIUM
+List of inventory items:
+1. chairs
 Another command?
-Wooden Chair is added to order. 8 required to fulfill
-8 of WC1 is added to order number 1
+Viewing item with id 1
+Item name: chairs
+Item description: Empty Description
+Item quantity: 86
 Another command?
-List of available goods with its quantity:
-WC1 - Wooden Chair (Chair made of oak from Europe) [Qty: 10]
-Another command?
-Orderline fulfilled
-2 Wooden Chair left in the warehouse
-Order 1 completed
-Another command?
-List of orders:
-	1: 1 - Danny Phantom (Amity Park) : completed
-Another command?
-List of available goods with its quantity:
-WC1 - Wooden Chair (Chair made of oak from Europe) [Qty: 2]
-Another command?
-Order 1 already completed
+There are 86 goods in total.
 Another command?
 Bye

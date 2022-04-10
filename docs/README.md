@@ -1,7 +1,6 @@
-# Simplst 
+# Duke
 
-*Simplst* is a Warehouse Management System (WMS) for managing warehouse inventory and order management, optimzed for use
-via a Command Line Interface (CLI) for warehouse management workers and managers.
+{Give product intro here}
 
 Useful links:
 * [User Guide](UserGuide.md)
